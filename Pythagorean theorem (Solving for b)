@@ -1,0 +1,6 @@
+#pythagorean theorem solving for b (a^2 + b^2 = c^2)
+test <- function(a,c) {
+  b <- sqrt(c^2 - a^2)
+  print(paste(b))
+}
+test(10, 100)
